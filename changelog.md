@@ -1,4 +1,8 @@
 # Changelog
+- `22586258a` README: Add link to example output
+- `5f9c61db8` dogfooding!
+- `9fdaa19bb` README: Typo
+- `b7eef9ae4` README: Change description
 - `b4668bb62` A useful README
 
 ## v1.1 (2016/11/06)
