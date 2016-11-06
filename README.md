@@ -70,4 +70,4 @@ Every commit exposes the following fields:
 {{- end}}
 ```
 
-See output of this template [here](changelog.md).
+See the outputs of this template [here (Markdown)](changelog.md) and [here (HTML)](changelog.html).

@@ -1,5 +1,6 @@
 # Changelog
-- `3a3f6a2e8` README: Add Templates section
+- `14f2d40e0` README: Link both outputs MD and HTML
+- `e19cc2922` README: Add Templates section
 - `6e6ac4bdb` README: Add link to example output
 - `5f9c61db8` dogfooding!
 - `9fdaa19bb` README: Typo
