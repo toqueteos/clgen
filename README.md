@@ -1,0 +1,2 @@
+# clgen
+Changelog generator
