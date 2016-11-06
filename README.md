@@ -2,7 +2,7 @@
 
 A fast changelog generator using git as source.
 
-Generates two files: `markdown.md` and `markdown.html`.
+Generates two files: `changelog.md` and `changelog.html`.
 
 ## Installation (development)
 
