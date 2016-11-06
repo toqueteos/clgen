@@ -1,5 +1,6 @@
 # Changelog
-- `22586258a` README: Add link to example output
+- `3a3f6a2e8` README: Add Templates section
+- `6e6ac4bdb` README: Add link to example output
 - `5f9c61db8` dogfooding!
 - `9fdaa19bb` README: Typo
 - `b7eef9ae4` README: Change description

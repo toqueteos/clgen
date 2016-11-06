@@ -38,6 +38,22 @@ $ ls -lh changelog*
 -rw-r--r-- 1 toq 197121 7,8K nov.  6 13:03 changelog.md
 ```
 
+## Templates
+
+We use [Go's standard library templating library](http://golang.org/pkg/text/template).
+
+The list of commits is exposed directly in `{{.}}`.
+
+Every commit exposes the following fields:
+
+    Hash  string
+    Date  time.Time
+    Title string
+    Body  string
+    Tags  []string
+
+`clgen` does not perform any kind of filtering, it's all up to you.
+
 ## Samples
 
 **template.tpl**
