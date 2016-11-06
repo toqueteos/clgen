@@ -1,6 +1,6 @@
 # clgen
 
-Changelog generator.
+A fast changelog generator using git as source.
 
 Generates two files: `markdown.md` and `markdown.html`.
 
