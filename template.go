@@ -1,6 +1,7 @@
 package clgen
 
 import (
+	"fmt"
 	"io/ioutil"
 	"os"
 	"text/template"
@@ -14,8 +15,12 @@ var funcMap = template.FuncMap{
 
 func WriteTemplate(pathIn, pathOut string, commits []Commit) error {
 	body, err := ioutil.ReadFile(pathIn)
-	if err != nil {
-		return err
+	if os.IsNotExist(err) {
+		return fmt.Errorf("%q doesn't exist", pathIn)
+	} else {
+		if err != nil {
+			return err
+		}
 	}
 
 	tpl := template.New("changelog-markdown")
