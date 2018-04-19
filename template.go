@@ -4,13 +4,15 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strings"
 	"text/template"
 )
 
 var funcMap = template.FuncMap{
-	"shortHash": func(s string) string {
-		return s[:9]
-	},
+	"shortHash": func(s string) string { return s[:9] },
+	"contains":  strings.Contains,
+	"hasPrefix": strings.HasPrefix,
+	"hasSuffix": strings.HasSuffix,
 }
 
 func WriteTemplate(pathIn, pathOut string, commits []Commit) error {

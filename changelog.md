@@ -1,5 +1,9 @@
 # Changelog
-- `14f2d40e0` README: Link both outputs MD and HTML
+- `ea1cdd9fa` Add `contains`, `hasPrefix` and `hasSuffix` template helpers
+- `3cee3f688` Handle dependencies with glide
+- `483728d09` :sparkles: 2018
+- `f4724f3af` :sparkles: 2017!
+- `5e368a652` README: Link both outputs MD and HTML
 - `e19cc2922` README: Add Templates section
 - `6e6ac4bdb` README: Add link to example output
 - `5f9c61db8` dogfooding!

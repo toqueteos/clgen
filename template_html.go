@@ -35,7 +35,7 @@ func TemplateToHTML(title, pathIn, pathOut string) error {
 		return err
 	}
 
-	md := blackfriday.MarkdownBasic(body)
+	md := blackfriday.Run(body, blackfriday.WithNoExtensions())
 
 	f, err := os.Create(pathOut)
 	if err != nil {
