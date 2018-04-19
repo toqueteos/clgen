@@ -13,8 +13,10 @@ Right now both Windows and Linux are provided.
 ## Development
 
 1. Install [glide](https://glide.sh/)
-2. Run `$ glide install`
-3. Run `$ go get github.com/toqueteos/clgen/cmd/clgen`
+2. Move to project root
+3. Run `$ glide install`
+4. Perform your changes
+5. Run `$ go run cmd/clgen.go` to test
 
 ## Usage
 
