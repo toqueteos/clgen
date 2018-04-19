@@ -1,0 +1,4 @@
+package: github.com/toqueteos/clgen
+import:
+- package: github.com/russross/blackfriday
+  version: ^2.0.0
