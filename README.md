@@ -4,11 +4,17 @@ A fast changelog generator using git as source.
 
 Generates two files: `changelog.md` and `changelog.html`.
 
-## Installation (development)
+## Installation
 
-```
-$ go get github.com/toqueteos/clgen/cmd/clgen
-```
+Go to the [releases page](https://github.com/toqueteos/clgen/releases) to fetch the latest precompiled binaries.
+
+Right now both Windows and Linux are provided.
+
+## Development
+
+1. Install [glide](https://glide.sh/)
+2. Run `$ glide install`
+3. Run `$ go get github.com/toqueteos/clgen/cmd/clgen`
 
 ## Usage
 
